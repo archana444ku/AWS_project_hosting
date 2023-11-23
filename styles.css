@@ -1,0 +1,160 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-size: 70px;
+	font-family: "lato";
+	line-height: 0;
+}
+h3{
+	font-size: 40px;
+	font-family: "condiment";
+	line-height: 0;
+}
+.about-title{
+	font-family: "lato";
+	float: right;
+	padding: 40px 25px;
+}
+.project-title{
+	font-family: "lato";
+	position: absolute;
+	top: 5%;
+	left: 44%;
+}
+.contact-title{
+	font-family: "lato";
+}
+.contact-tagline{
+	font-family: "lato";
+	color: rgb(244, 212, 3), 235, 105);
+}
+h2{
+	font-size: 20px;
+	font-family: "commissioner";
+
+}
+h4{
+	font-size: 20px;
+	font-family: "commissioner";
+	padding: 4% 5%;
+}
+
+
+a{
+	color: black;
+}
+/* Pre loader */
+.loader{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgb(220, 249, 5);
+	z-index: 2;
+	overflow: hidden;
+	animation: loader 2s ease 2s;
+    animation-fill-mode: forwards;
+}
+
+.loader .intro{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.loader .intro h3{
+	font-size: 120px;
+	color: black; 
+}
+@keyframes loader{
+	0%{
+        opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		z-index: -2;
+	}
+}
+/* Landing Page */
+#landingPage{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	position: relative;
+}
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 15%;
+	height: 9%;
+	background-color: rgb(240, 232, 7);
+	text-align: center;
+}
+.line{
+	position: absolute;
+	left: 0;
+	top: 95%;
+	width: 145px;
+	height: 1px;
+	background-color: black;
+}
+.nav{
+	position: absolute;
+	top: 0;
+	right: 2%;
+	display: flex;
+    justify-content: space-between;
+   
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	padding: 0px 15px;
+}
+li a{
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "commissioner";
+	color: black;
+	cursor: pointer;
+}
+li a:hover{
+	text-decoration-color: rgb(223, 252, 2)248, 255, 192);
+	text-decoration: line-through;
+}
+.nav-btn{
+	color: #fff;
+    background-color: black;
+    border-radius: 30px;
+    padding: 8px 25px;
+   
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    line-height: 26px;
+    font-size: 18px;
+    font-family: "commissioner";
+    border-color: black;
+    box-shadow: 0px 8px 15px rgba(0,0,0,.4);
+    margin-top: 15px;
+    transition: 0.8s all;
+}
+.title{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    text-align: left;
+}
+.para{
+	position: absolute;
+	top: 70%;
+	left: 35%;
+	text-align: left;
+}
